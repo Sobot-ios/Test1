@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "f0dc54a9-39d7-4ef6-9d5d-647ae7056986++7134",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "f0dc54a9-39d7-4ef6-9d5d-647ae7056986++7134" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "f0dc54a9-39d7-4ef6-9d5d-647ae7056986++7134" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A9D163BD-874E-4D1A-B0F4-2F9A061B0E96",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "f0dc54a9-39d7-4ef6-9d5d-647ae7056986++7134" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SobotLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/SDK\/SobotLib\/SobotLib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/101.200.200.21",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "f0dc54a9-39d7-4ef6-9d5d-647ae7056986++7134"
+    }
+  ]
+}

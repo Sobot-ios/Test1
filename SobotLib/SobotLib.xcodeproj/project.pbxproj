@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B357C921C084D91009DE1FB /* CreateSobotLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B357C951C084D91009DE1FB /* Build configuration list for PBXAggregateTarget "CreateSobotLib" */;
+			buildPhases = (
+				7B357C961C084D97009DE1FB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CreateSobotLib;
+			productName = CreateSobotLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7B357C271C0849F9009DE1FB /* SobotLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B357C261C0849F9009DE1FB /* SobotLib.h */; };
+		7B357C291C0849F9009DE1FB /* SobotLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B357C281C0849F9009DE1FB /* SobotLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B357C211C0849F9009DE1FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7B357C271C0849F9009DE1FB /* SobotLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B357C231C0849F9009DE1FB /* libSobotLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSobotLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B357C261C0849F9009DE1FB /* SobotLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SobotLib.h; sourceTree = "<group>"; };
+		7B357C281C0849F9009DE1FB /* SobotLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SobotLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B357C201C0849F9009DE1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B357C1A1C0849F9009DE1FB = {
+			isa = PBXGroup;
+			children = (
+				7B357C251C0849F9009DE1FB /* SobotLib */,
+				7B357C241C0849F9009DE1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B357C241C0849F9009DE1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B357C231C0849F9009DE1FB /* libSobotLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B357C251C0849F9009DE1FB /* SobotLib */ = {
+			isa = PBXGroup;
+			children = (
+				7B357C261C0849F9009DE1FB /* SobotLib.h */,
+				7B357C281C0849F9009DE1FB /* SobotLib.m */,
+			);
+			path = SobotLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B357C221C0849F9009DE1FB /* SobotLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B357C2C1C0849F9009DE1FB /* Build configuration list for PBXNativeTarget "SobotLib" */;
+			buildPhases = (
+				7B357C1F1C0849F9009DE1FB /* Sources */,
+				7B357C201C0849F9009DE1FB /* Frameworks */,
+				7B357C211C0849F9009DE1FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SobotLib;
+			productName = SobotLib;
+			productReference = 7B357C231C0849F9009DE1FB /* libSobotLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B357C1B1C0849F9009DE1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhichi;
+				TargetAttributes = {
+					7B357C221C0849F9009DE1FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7B357C921C084D91009DE1FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B357C1E1C0849F9009DE1FB /* Build configuration list for PBXProject "SobotLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B357C1A1C0849F9009DE1FB;
+			productRefGroup = 7B357C241C0849F9009DE1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B357C221C0849F9009DE1FB /* SobotLib */,
+				7B357C921C084D91009DE1FB /* CreateSobotLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B357C961C084D97009DE1FB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/libFinal/\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/lib${FMK_NAME}.a\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/lib${FMK_NAME}.a\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild OTHER_CFLAGS=\"-fembed-bitcode\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\n\n\nMY_FINAL_BUILD_PATH_HEADER=\"${INSTALL_DIR}/include/\"\nif [ -d \"${MY_FINAL_BUILD_PATH_HEADER}\" ]\nthen\nrm -rf \"${MY_FINAL_BUILD_PATH_HEADER}\"\nfi\nmkdir -p \"${MY_FINAL_BUILD_PATH_HEADER}\"\n\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}\" \"${SIMULATOR_DIR}\" -output \"${INSTALL_DIR}/lib${FMK_NAME}.a\"\n\ncp -R \"${WRK_DIR}/Release-iphoneos/include/SobotLib/\" ${MY_FINAL_BUILD_PATH_HEADER}\n\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B357C1F1C0849F9009DE1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B357C291C0849F9009DE1FB /* SobotLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B357C2A1C0849F9009DE1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B357C2B1C0849F9009DE1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B357C2D1C0849F9009DE1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7B357C2E1C0849F9009DE1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7B357C931C084D91009DE1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B357C941C084D91009DE1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B357C1E1C0849F9009DE1FB /* Build configuration list for PBXProject "SobotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B357C2A1C0849F9009DE1FB /* Debug */,
+				7B357C2B1C0849F9009DE1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B357C2C1C0849F9009DE1FB /* Build configuration list for PBXNativeTarget "SobotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B357C2D1C0849F9009DE1FB /* Debug */,
+				7B357C2E1C0849F9009DE1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B357C951C084D91009DE1FB /* Build configuration list for PBXAggregateTarget "CreateSobotLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B357C931C084D91009DE1FB /* Debug */,
+				7B357C941C084D91009DE1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B357C1B1C0849F9009DE1FB /* Project object */;
+}
